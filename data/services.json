@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Full Transparency",
+    "description": "Complete visibility into all banking operations and transactions with no hidden fees or charges.",
+    "detailedDescription": "We believe in complete transparency in all our operations. Every transaction, every fee, and every policy is clearly communicated to our members. You will always know exactly where your money is and how it's being used. Our open-book policy ensures that you have full access to information about your account and our cooperative's financial health.",
+    "icon": "FaEye"
+  },
+  {
+    "title": "Take Loan Anytime",
+    "description": "Access loans whenever you need financial support, subject to credit score requirements.",
+    "detailedDescription": "Our cooperative offers flexible loan facilities to all eligible members. Whether you need funds for personal needs, emergencies, or business purposes, we're here to support you. Loans are available to members with a credit score of 3/10 or higher. The application process is simple, and our management team is always ready to help you understand your options and find the best solution for your needs.",
+    "icon": "FaHandHoldingUsd"
+  },
+  {
+    "title": "Flexible Monthly Payments",
+    "description": "You decide the amount you want to pay per month on your loan - but you must always pay something.",
+    "detailedDescription": "We understand that financial situations can vary from month to month. That's why we offer flexible loan repayment options. You have the freedom to decide how much you want to pay towards your loan each month, giving you control over your finances. The only requirement is that you must make a payment every month - even if it's a small amount. This flexibility helps you manage your finances better while ensuring you stay on track with your loan repayment.",
+    "icon": "FaChartLine"
+  },
+  {
+    "title": "Rs.100 Monthly Service Fee",
+    "description": "A fixed monthly fee of Rs.100 to keep our banking services running smoothly for all members.",
+    "detailedDescription": "To maintain and improve our services, we charge a nominal monthly service fee of Rs.100. This fee is separate from your account balance and goes directly towards operational costs, technology improvements, and ensuring the smooth functioning of our cooperative. This transparent fee structure ensures that we can continue providing quality banking services to all our members without any hidden charges.",
+    "icon": "FaRupeeSign"
+  },
+  {
+    "title": "Financial Support Anytime",
+    "description": "Get financial assistance whenever you need it - we're here to help our members in times of need.",
+    "detailedDescription": "As a cooperative bank, we're built on the principle of mutual support. When you need financial assistance, our cooperative is here to help. Whether it's an emergency situation, unexpected expenses, or planned financial goals, we work together to find solutions. Our management team is committed to understanding your unique situation and providing the support you need. This is what makes cooperative banking different - we're not just a bank, we're a community.",
+    "icon": "FaHandsHelping"
+  }
+]

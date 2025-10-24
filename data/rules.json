@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Monthly Service Fee",
+    "description": "You must pay Rs.100 every month to keep the bank running. This fee is separate from your bank account balance and goes towards operational costs.",
+    "important": true
+  },
+  {
+    "title": "Deposit Policy",
+    "description": "You can deposit any amount into your bank account with a 1% transaction fee. The Rs.100 monthly fee does not go into your account - it's purely for service maintenance.",
+    "important": false
+  },
+  {
+    "title": "Daily Deposit Limits",
+    "description": "As this is NOT a commercial bank, you can only deposit up to Rs.10,000 per day. Each individual transaction is limited to Rs.5,000.",
+    "important": true
+  },
+  {
+    "title": "Loan Restrictions",
+    "description": "You cannot take more than 1 loan at a time. You must fully repay your current loan before applying for a new one.",
+    "important": true
+  },
+  {
+    "title": "Credit Score Requirement",
+    "description": "You cannot take a loan if your credit score is less than 3 out of 10. Maintain a good repayment history to keep your score above the minimum threshold.",
+    "important": true
+  },
+  {
+    "title": "Bank Type Disclaimer",
+    "description": "Ghosh Cooperative Bankings is a cooperative banking institution, NOT a commercial bank. We operate under cooperative banking principles with member-focused services and limitations.",
+    "important": false
+  }
+]

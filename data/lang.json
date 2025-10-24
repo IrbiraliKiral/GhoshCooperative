@@ -1,0 +1,156 @@
+{
+  "en": {
+    "header": {
+      "home": "Home",
+      "members": "Members",
+      "learnMore": "Learn More"
+    },
+    "hero": {
+      "title": "Ghosh Cooperative Bankings",
+      "subtitle": "Ghosh Cooperative Bank Services Official Portal",
+      "learnMore": "Learn More",
+      "viewMembers": "View Members"
+    },
+    "services": {
+      "title": "facilties",
+      "subtitle": "Multiple Facilities to join this bank"
+    },
+    "members": {
+      "title": "All Members",
+      "subtitle": "Ghosh Cooperative Staff Members",
+      "viewAll": "View All Members",
+      "staff": "Staff",
+      "bankStaff": "Bank Staff",
+      "bankMembers": "Bank Members",
+      "dedicatedTeam": "Our dedicated management team and staff members",
+      "valuedMembers": "Our valued cooperative banking members",
+      "allMembers": "All Members",
+      "allMembersSubtitle": "Meet all the members of Ghosh Cooperative Bankings",
+      "register": "Register as a Member"
+    },
+    "getHelp": {
+      "title": "Contact",
+      "subtitle": "Not available right now",
+      "contactInfo": "Contact Information",
+      "email": "Email",
+      "phone": "Phone",
+      "form": {
+        "title": "Send us a message",
+        "email": "Email",
+        "emailPlaceholder": "GhoshCooperativeBankings@gmail.com",
+        "phone": "Phone",
+        "phonePlaceholder": "n/a",
+        "message": "Message",
+        "messagePlaceholder": "your message here",
+        "submit": "Submit Request",
+        "submitting": "Sending...",
+        "success": "Your message has been sent successfully! ",
+        "error": "Failed to send message. Please try again."
+      }
+    },
+    "overview": {
+      "title": "Overview",
+      "subtitle": "Learn more about our cooperative banking services "
+    },
+    "rulebook": {
+      "title": "Banking Rulebook",
+      "subtitle": "Rules",
+      "important": "Rules, applied to every member and staff "
+    },
+    "footer": {
+      "about": "About",
+      "aboutText": "Ghosh Cooperative Bank is a Cooperative bank service.",
+      "quickLinks": "Quick Links",
+      "home": "Home",
+      "members": "Members",
+      "learnMore": "Learn More",
+      "contact": "Contact",
+      "copyright": "Ghosh cooperative bank 2025."
+    },
+    "notFound": {
+      "title": "Page Not Found",
+      "message": "The page you are looking for might have been removed, had its name changed, or is temporarily unavailable.",
+      "backHome": "Back to Home"
+    },
+    "noticeBanner": {
+      "text": "Register now at Ghosh Cooperative Bank! Get 30% off in joining fees! Contact us now."
+    }
+  },
+  "bn": {
+    "header": {
+      "home": "হোম",
+      "members": "সদস্যগণ",
+      "learnMore": "আরও জানুন"
+    },
+    "hero": {
+      "title": "ঘোষ সমবায় ব্যাংকিং",
+      "subtitle": "আপনার বিশ্বস্ত সমবায় ব্যাংকিং অংশীদার - স্বচ্ছতা, নমনীয়তা এবং সম্প্রদায় সহায়তার উপর নির্মিত",
+      "learnMore": "আরও জানুন",
+      "viewMembers": "সদস্য দেখুন"
+    },
+    "services": {
+      "title": "আমাদের সেবাসমূহ",
+      "subtitle": "আপনার আর্থিক সুস্থতার জন্য ডিজাইন করা সমবায় ব্যাংকিং এর সুবিধাগুলি আবিষ্কার করুন"
+    },
+    "members": {
+      "title": "আমাদের দল",
+      "subtitle": "ঘোষ সমবায় ব্যাংকিং পরিচালনা ও পরিচালনাকারী নিবেদিত কর্মীদের সাথে দেখা করুন",
+      "viewAll": "সকল সদস্য দেখুন",
+      "staff": "কর্মী",
+      "bankStaff": "ব্যাংক কর্মী",
+      "bankMembers": "ব্যাংক সদস্যগণ",
+      "dedicatedTeam": "আমাদের নিবেদিত ব্যবস্থাপনা দল এবং কর্মীরা",
+      "valuedMembers": "আমাদের মূল্যবান সমবায় ব্যাংকিং সদস্যগণ",
+      "allMembers": "সকল সদস্যগণ",
+      "allMembersSubtitle": "ঘোষ সমবায় ব্যাংকিং এর সকল সদস্যদের সাথে দেখা করুন",
+      "register": "সদস্য হিসাবে নিবন্ধন করুন"
+    },
+    "getHelp": {
+      "title": "সাহায্য পান",
+      "subtitle": "প্রশ্ন আছে? আমরা আপনার ব্যাংকিং প্রয়োজনে সাহায্য করতে এখানে আছি",
+      "contactInfo": "যোগাযোগের তথ্য",
+      "email": "ইমেইল",
+      "phone": "ফোন",
+      "form": {
+        "title": "আমাদের একটি বার্তা পাঠান",
+        "email": "ইমেইল",
+        "emailPlaceholder": "your@email.com",
+        "phone": "ফোন",
+        "phonePlaceholder": "+৯১ ১২৩৪৫৬৭৮৯০",
+        "message": "বার্তা",
+        "messagePlaceholder": "আমরা কিভাবে আপনাকে সাহায্য করতে পারি?",
+        "submit": "অনুরোধ জমা দিন",
+        "submitting": "পাঠানো হচ্ছে...",
+        "success": "আপনার বার্তা সফলভাবে পাঠানো হয়েছে! আমরা শীঘ্রই আপনার সাথে যোগাযোগ করব।",
+        "error": "বার্তা পাঠাতে ব্যর্থ। অনুগ্রহ করে আবার চেষ্টা করুন।"
+      }
+    },
+    "overview": {
+      "title": "সংক্ষিপ্ত বিবরণ",
+      "subtitle": "আমাদের সমবায় ব্যাংকিং সেবা এবং কীভাবে আমরা আপনার আর্থিক লক্ষ্য অর্জনে সহায়তা করতে পারি সে সম্পর্কে আরও জানুন"
+    },
+    "rulebook": {
+      "title": "ব্যাংকিং নিয়মাবলী",
+      "subtitle": "ঘোষ সমবায় ব্যাংকিং সদস্যদের জন্য গুরুত্বপূর্ণ নিয়ম এবং নির্দেশিকা",
+      "important": "গুরুত্বপূর্ণ নিয়ম"
+    },
+    "footer": {
+      "about": "সম্পর্কে",
+      "aboutText": "ঘোষ সমবায় ব্যাংকিং হল একটি সদস্য-মালিকানাধীন আর্থিক সমবায় যা আমাদের সম্প্রদায়কে স্বচ্ছ এবং নমনীয় ব্যাংকিং সেবা প্রদান করে।",
+      "quickLinks": "দ্রুত লিংক",
+      "home": "হোম",
+      "members": "সদস্যগণ",
+      "learnMore": "আরও জানুন",
+      "contact": "যোগাযোগ",
+      "copyright": "© ২০২৪ ঘোষ সমবায় ব্যাংকিং। সর্বস্বত্ব সংরক্ষিত।"
+    },
+    "notFound": {
+      "title": "পৃষ্ঠা পাওয়া যায়নি",
+      "message": "আপনি যে পৃষ্ঠাটি খুঁজছেন তা সরানো হতে পারে, এর নাম পরিবর্তন হতে পারে বা সাময়িকভাবে অনুপলব্ধ।",
+      "backHome": "হোমে ফিরে যান"
+    },
+    "noticeBanner": {
+      "text": "এখনই ঘোষ সমবায় ব্যাংকে নিবন্ধন করুন! যোগদান ফিতে ৩০% ছাড় পান! এখনই আমাদের সাথে যোগাযোগ করুন।"
+    }
+  }
+}
