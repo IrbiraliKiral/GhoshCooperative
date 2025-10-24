@@ -6,6 +6,7 @@ import { NoticeBanner } from '@/components/common/NoticeBanner/NoticeBanner';
 import { LandingPage } from '@/pages/LandingPage/LandingPage';
 import { MembersPage } from '@/pages/MembersPage/MembersPage';
 import { LearnMorePage } from '@/pages/LearnMorePage/LearnMorePage';
+import { RegisterPage } from '@/pages/RegisterPage/RegisterPage';
 import { NotFoundPage } from '@/pages/NotFoundPage/NotFoundPage';
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
               <Route path="/" element={<LandingPage />} />
               <Route path="/members" element={<MembersPage />} />
               <Route path="/learn-more" element={<LearnMorePage />} />
+              <Route path="/register" element={<RegisterPage />} />
               <Route path="*" element={<NotFoundPage />} />
             </Routes>
           </main>
