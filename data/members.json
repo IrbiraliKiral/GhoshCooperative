@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Souvik Ghosh",
+    "role": "Founder",
+    "isStaff": true
+  },
+  {
+    "name": "Malati Ghosh",
+    "role": "Official Secretary of Ghosh Cooperative Bank",
+    "isStaff": true
+  },
+  {
+    "name": "Sudipta Ghosh",
+    "role": "Management Team",
+    "isStaff": true
+  },
+  {
+    "name": "Anish Pal",
+    "role": "Management Team",
+    "isStaff": true
+  },
+  {
+    "name": "Ajanta Pal",
+    "role": "Member",
+    "isStaff": false
+  },
+  {
+    "name": "Kashinath Pal",
+    "role": "Member",
+    "isStaff": false
+  },
+  {
+    "name": "Kaushik Ghosh",
+    "role": "Member",
+    "isStaff": false
+  },
+  {
+    "name": "Satarupa Pal",
+    "role": "Member",
+    "isStaff": false
+  },
+  {
+    "name": "Arinjoy Pal Panja",
+    "role": "Member",
+    "isStaff": false
+  }
+]
