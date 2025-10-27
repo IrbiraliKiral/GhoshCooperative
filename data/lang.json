@@ -112,6 +112,19 @@
       "captchaLabel": "Solve this problem to verify you're human",
       "captchaPlaceholder": "Your answer",
       "verifyCaptcha": "Verify Answer"
+    },
+    "verify": {
+      "title": "Verify Your Identity",
+      "subtitle": "Please enter your credentials to access the website",
+      "fullName": "Full Name",
+      "fullNamePlaceholder": "Enter your full name",
+      "code": "Verification Code",
+      "codePlaceholder": "Enter your code",
+      "submit": "Verify & Continue",
+      "verifying": "Verifying...",
+      "error": "An error occurred during verification",
+      "invalidCredentials": "Invalid name or code. Please try again.",
+      "helpText": "Please contact the administrator if you need assistance"
     }
   },
   "bn": {
@@ -227,6 +240,19 @@
       "captchaLabel": "আপনি মানুষ তা যাচাই করতে এই সমস্যার সমাধান করুন",
       "captchaPlaceholder": "আপনার উত্তর",
       "verifyCaptcha": "উত্তর যাচাই করুন"
+    },
+    "verify": {
+      "title": "আপনার পরিচয় যাচাই করুন",
+      "subtitle": "ওয়েবসাইট অ্যাক্সেস করতে আপনার শংসাপত্র লিখুন",
+      "fullName": "পূর্ণ নাম",
+      "fullNamePlaceholder": "আপনার পূর্ণ নাম লিখুন",
+      "code": "যাচাইকরণ কোড",
+      "codePlaceholder": "আপনার কোড লিখুন",
+      "submit": "যাচাই করুন এবং চালিয়ে যান",
+      "verifying": "যাচাই করা হচ্ছে...",
+      "error": "যাচাইকরণের সময় একটি ত্রুটি ঘটেছে",
+      "invalidCredentials": "অবৈধ নাম বা কোড। আবার চেষ্টা করুন।",
+      "helpText": "সহায়তার প্রয়োজন হলে অনুগ্রহ করে প্রশাসকের সাথে যোগাযোগ করুন"
     }
   }
 }

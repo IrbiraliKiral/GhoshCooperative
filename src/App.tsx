@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import { LanguageProvider } from '@/contexts/LanguageContext';
 import { Header } from '@/components/layout/Header/Header';
 import { Footer } from '@/components/layout/Footer/Footer';
@@ -8,6 +8,24 @@ import { MembersPage } from '@/pages/MembersPage/MembersPage';
 import { LearnMorePage } from '@/pages/LearnMorePage/LearnMorePage';
 import { RegisterPage } from '@/pages/RegisterPage/RegisterPage';
 import { NotFoundPage } from '@/pages/NotFoundPage/NotFoundPage';
+import { VerifyPage } from '@/pages/VerifyPage/VerifyPage';
+import { getCurrentMachineSession, updateSessionAccess } from '@/services/sessionService';
+import { ReactNode } from 'react';
+
+// Protected Route Component
+function ProtectedRoute({ children }: { children: ReactNode }) {
+  const session = getCurrentMachineSession();
+  
+  if (!session) {
+    // No session found, redirect to verify page
+    return <Navigate to="/verify" replace />;
+  }
+  
+  // Update session access time
+  updateSessionAccess();
+  
+  return <>{children}</>;
+}
 
 function App() {
   return (
@@ -17,11 +35,15 @@ function App() {
           <Header />
           <main className="flex-grow pb-16">
             <Routes>
-              <Route path="/" element={<LandingPage />} />
-              <Route path="/members" element={<MembersPage />} />
-              <Route path="/learn-more" element={<LearnMorePage />} />
-              <Route path="/register" element={<RegisterPage />} />
-              <Route path="*" element={<NotFoundPage />} />
+              {/* Verify page - no protection */}
+              <Route path="/verify" element={<VerifyPage />} />
+              
+              {/* Protected routes */}
+              <Route path="/" element={<ProtectedRoute><LandingPage /></ProtectedRoute>} />
+              <Route path="/members" element={<ProtectedRoute><MembersPage /></ProtectedRoute>} />
+              <Route path="/learn-more" element={<ProtectedRoute><LearnMorePage /></ProtectedRoute>} />
+              <Route path="/register" element={<ProtectedRoute><RegisterPage /></ProtectedRoute>} />
+              <Route path="*" element={<ProtectedRoute><NotFoundPage /></ProtectedRoute>} />
             </Routes>
           </main>
           <Footer />

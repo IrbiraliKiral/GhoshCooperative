@@ -1,0 +1,49 @@
+{
+  "members": [
+    {
+      "id": "member_001",
+      "fullName": "Souvik Ghosh",
+      "code": "847562"
+    },
+    {
+      "id": "member_002",
+      "fullName": "Malati Ghosh",
+      "code": "395184"
+    },
+    {
+      "id": "member_003",
+      "fullName": "Sudipta Ghosh",
+      "code": "621739"
+    },
+    {
+      "id": "member_004",
+      "fullName": "Anish Pal",
+      "code": "914826"
+    },
+    {
+      "id": "member_005",
+      "fullName": "Ajanta Pal",
+      "code": "258473"
+    },
+    {
+      "id": "member_006",
+      "fullName": "Kashinath Pal",
+      "code": "736159"
+    },
+    {
+      "id": "member_007",
+      "fullName": "Kaushik Ghosh",
+      "code": "482937"
+    },
+    {
+      "id": "member_008",
+      "fullName": "Satarupa Pal",
+      "code": "569281"
+    },
+    {
+      "id": "member_009",
+      "fullName": "Arinjoy Pal Panja",
+      "code": "813654"
+    }
+  ]
+}

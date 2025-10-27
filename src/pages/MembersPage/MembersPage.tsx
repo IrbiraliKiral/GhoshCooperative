@@ -3,11 +3,13 @@ import { MemberCard } from '@/components/cards/MemberCard/MemberCard';
 import { Button } from '@/components/ui/button';
 import { FaUserPlus } from 'react-icons/fa';
 import { useLanguage } from '@/contexts/LanguageContext';
+import { useNavigate } from 'react-router-dom';
 
 export const MembersPage = () => {
   const staffMembers = getStaffMembers();
   const regularMembers = getRegularMembers();
   const { t } = useLanguage();
+  const navigate = useNavigate();
 
   return (
     <div className="min-h-screen banking-gradient-section">
@@ -23,6 +25,7 @@ export const MembersPage = () => {
           <Button
             size="lg"
             className="bg-banking-blue-600 hover:bg-banking-blue-700 text-white shadow-banking-md"
+            onClick={() => navigate('/register')}
           >
             <FaUserPlus className="mr-2" />
             {t.members.register}
