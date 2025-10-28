@@ -3,9 +3,11 @@ import { FaArrowRight, FaShieldAlt, FaUsers, FaCheckCircle, FaRupeeSign, FaHandH
 import { Button } from '@/components/ui/button';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { getStaffMembers, getRegularMembers } from '@/constants/data/memberData';
+import { useRegistration } from '@/hooks/useRegistration';
 
 export const Hero = () => {
   const { t } = useLanguage();
+  const { handleRegister } = useRegistration();
   const staffMembers = getStaffMembers();
   const regularMembers = getRegularMembers();
   const totalMembers = staffMembers.length + regularMembers.length;
@@ -94,14 +96,13 @@ export const Hero = () => {
 
               {/* CTA */}
               <div className="mt-6 pt-6 border-t border-white/20">
-                <Link to="/register">
-                  <Button 
-                    size="lg"
-                    className="w-full bg-white text-banking-blue-600 hover:bg-banking-blue-50 shadow-banking-md"
-                  >
-                    Register Now
-                  </Button>
-                </Link>
+                <Button 
+                  size="lg"
+                  className="w-full bg-white text-banking-blue-600 hover:bg-banking-blue-50 shadow-banking-md"
+                  onClick={handleRegister}
+                >
+                  Register Now
+                </Button>
               </div>
             </div>
           </div>
