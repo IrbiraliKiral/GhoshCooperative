@@ -1,13 +1,23 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { FaUniversity, FaBars, FaTimes } from 'react-icons/fa';
+import { FaUniversity, FaBars, FaTimes, FaUserCircle } from 'react-icons/fa';
 import { appConfig } from '@/config';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { LanguageToggle } from '@/components/common/LanguageToggle/LanguageToggle';
+import { getCurrentMachineSession } from '@/services/sessionService';
 
 export const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [userName, setUserName] = useState<string | null>(null);
   const { t } = useLanguage();
+
+  useEffect(() => {
+    // Check if user is logged in and get their name
+    const session = getCurrentMachineSession();
+    if (session) {
+      setUserName(session.memberName);
+    }
+  }, []);
 
   return (
     <header className="bg-white shadow-banking-md sticky top-0 z-50">
@@ -42,6 +52,12 @@ export const Header = () => {
               {t.header.learnMore}
             </Link>
             <LanguageToggle />
+            {userName && (
+              <div className="flex items-center gap-2 pl-4 border-l border-banking-gray-200">
+                <FaUserCircle className="text-banking-blue-600 text-2xl" />
+                <span className="text-banking-gray-900 font-medium">{userName}</span>
+              </div>
+            )}
           </nav>
 
           {/* Mobile Menu Button */}
@@ -81,6 +97,12 @@ export const Header = () => {
             <div className="px-2 py-2">
               <LanguageToggle />
             </div>
+            {userName && (
+              <div className="flex items-center gap-2 px-2 py-2 mt-2 border-t border-banking-gray-200">
+                <FaUserCircle className="text-banking-blue-600 text-2xl" />
+                <span className="text-banking-gray-900 font-medium">{userName}</span>
+              </div>
+            )}
           </nav>
         )}
       </div>
