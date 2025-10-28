@@ -125,6 +125,11 @@
       "error": "An error occurred during verification",
       "invalidCredentials": "Invalid name or code. Please try again.",
       "helpText": "Please contact the administrator if you need assistance"
+    },
+    "alreadyRegistered": {
+      "title": "Already Registered",
+      "message": "You are already registered as a member of Ghosh Cooperative Bankings. You cannot register again with the same account.",
+      "okButton": "OK"
     }
   },
   "bn": {
@@ -253,6 +258,11 @@
       "error": "যাচাইকরণের সময় একটি ত্রুটি ঘটেছে",
       "invalidCredentials": "অবৈধ নাম বা কোড। আবার চেষ্টা করুন।",
       "helpText": "সহায়তার প্রয়োজন হলে অনুগ্রহ করে প্রশাসকের সাথে যোগাযোগ করুন"
+    },
+    "alreadyRegistered": {
+      "title": "ইতিমধ্যে নিবন্ধিত",
+      "message": "আপনি ইতিমধ্যে ঘোষ সমবায় ব্যাংকিং এর সদস্য হিসাবে নিবন্ধিত আছেন। আপনি একই অ্যাকাউন্ট দিয়ে আবার নিবন্ধন করতে পারবেন না।",
+      "okButton": "ঠিক আছে"
     }
   }
 }

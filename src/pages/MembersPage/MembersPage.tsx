@@ -4,12 +4,27 @@ import { Button } from '@/components/ui/button';
 import { FaUserPlus } from 'react-icons/fa';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { useNavigate } from 'react-router-dom';
+import { getCurrentMachineSession } from '@/services/sessionService';
+import { useToast } from '@/hooks/ui/useToast';
 
 export const MembersPage = () => {
   const staffMembers = getStaffMembers();
   const regularMembers = getRegularMembers();
   const { t } = useLanguage();
   const navigate = useNavigate();
+  const toast = useToast();
+
+  const handleRegisterClick = () => {
+    const session = getCurrentMachineSession();
+    
+    if (session) {
+      // User is already logged in/registered
+      toast.info(t.alreadyRegistered.message);
+    } else {
+      // User is not registered, navigate to registration page
+      navigate('/register');
+    }
+  };
 
   return (
     <div className="min-h-screen banking-gradient-section">
@@ -25,7 +40,7 @@ export const MembersPage = () => {
           <Button
             size="lg"
             className="bg-banking-blue-600 hover:bg-banking-blue-700 text-white shadow-banking-md"
-            onClick={() => navigate('/register')}
+            onClick={handleRegisterClick}
           >
             <FaUserPlus className="mr-2" />
             {t.members.register}
